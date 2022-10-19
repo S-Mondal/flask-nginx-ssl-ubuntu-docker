@@ -1,6 +1,6 @@
 # Using Ubuntu image, create a Flask project by configuring Nginx with SSL in Docker
 
-* [create self-signed certificate and key] (https://major.io/2007/08/02/generate-self-signed-certificate-and-key-in-one-line/)
+* [create self-signed certificate and key](https://major.io/2007/08/02/generate-self-signed-certificate-and-key-in-one-line/)
 * place files in ssl folder 
 * create your own config file with domain name to place it inside /etc/nginx/sites-enabled/
 * create your project with Flask
@@ -16,6 +16,6 @@
 
 ### Other Useful Commands:
 
->`sudo docker ps -a -q` (To get all the container-ids)
->`sudo docker rmi $(sudo docker images -f dangling=true -q)` (To remove by filtering all image-ids of the dangling images)
->`sudo docker exec -ti <container-id> bash` (To open the container bash terminal in interactive mode)
+>*`sudo docker ps -a -q` (To get all the container-ids)
+>*`sudo docker rmi $(sudo docker images -f dangling=true -q)` (To remove by filtering all image-ids of the dangling images)
+>*`sudo docker exec -ti <container-id> bash` (To open the container bash terminal in interactive mode)
